@@ -3,13 +3,16 @@
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
-import experience from '../../../assets/lottie/code.json';
+import experience from "../../../assets/lottie/code.json";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 
 function Experience() {
   return (
-    <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div
+      id="experience"
+      className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
+    >
       <Image
         src="/section.svg"
         alt="Hero"
@@ -38,9 +41,15 @@ function Experience() {
 
           <div>
             <div className="flex flex-col gap-6">
-              {
-                experiences.map(experience => (
-                  <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
+              {experiences.map((experience) => (
+                <a
+                  href={experience.link}
+                  key={experience.id}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:scale-105 transition-all duration-300"
+                >
+                  <GlowCard identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
                       <Image
                         src="/blur-23.svg"
@@ -69,14 +78,14 @@ function Experience() {
                       </div>
                     </div>
                   </GlowCard>
-                ))
-              }
+                </a>
+              ))}
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Experience;

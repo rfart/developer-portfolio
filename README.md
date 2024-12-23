@@ -120,10 +120,10 @@ Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
-  profile: "/profile.png",
+  name: "Riyan Firdaus Amerta",
+  profile: "/profilepic.jpeg",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
+  description: "My name is Riyan....",
   email: "abusaid7388@gmail.com",
   phone: "+8801608797655",
   address: "Dhaka, Bangladesh",

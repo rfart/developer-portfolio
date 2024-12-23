@@ -3,7 +3,6 @@
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 
-
 function AboutSection() {
   return (
     <div id="about" className="my-12 lg:my-16 relative">
@@ -23,17 +22,24 @@ function AboutSection() {
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
+          {/* This Image component is streching, make it not with the same width */}
           <Image
             src={personalData.profile}
             width={280}
             height={280}
-            alt="Abu Said"
+            alt="Riyan Firdaus Amerta"
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
           />
+          {/* <img
+            src={personalData.profile}
+            width={280}
+            alt="Riyan Firdaus Amerta"
+            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+          /> */}
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default AboutSection;
