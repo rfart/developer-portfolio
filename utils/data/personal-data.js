@@ -10,10 +10,7 @@ export const personalData = {
   github: "https://github.com/rfart",
   facebook: "https://www.facebook.com/riyan.fa01/",
   linkedIn: "https://www.linkedin.com/in/riyan-firdaus-amerta/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  twitter: "https://twitter.com/Riyan_rfart",
   instagram: "https://www.instagram.com/riyan_rfa/",
   resume:
     "https://drive.google.com/file/d/1lh6eqgqjU-I_raFtHt9-B87RzMkngwQO/view?usp=sharing",
