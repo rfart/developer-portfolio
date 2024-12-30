@@ -13,26 +13,16 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio of Riyan - Software Engineer",
   description:
-    "This is the portfolio of Riyan. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Discover more about Riyan Firdaus Amerta, a Blockchain and JavaScript Developer.",
+  keywords:
+    "Riyan Firdaus, Riyan Firdaus Amerta, Blockchain Developer, JavaScript Developer, Solidity",
+  verification: { google: "xKmmCsQthElZ38t6BbdP3SX1yZmNcQRETo-n1ZMTob4" },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>Riyan Firdaus Amerta - Personal Portfolio</title>
-        <meta
-          name="google-site-verification"
-          content="xKmmCsQthElZ38t6BbdP3SX1yZmNcQRETo-n1ZMTob4"
-        />
-        <meta
-          name="description"
-          content="Discover more about Riyan Firdaus Amerta, a Blockchain and JavaScript Developer."
-        />
-        <meta
-          name="keywords"
-          content="Riyan Firdaus, Riyan Firdaus Amerta, Blockchain Developer, JavaScript Developer, Solidity"
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
